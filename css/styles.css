@@ -336,6 +336,7 @@ section {
 .testimonials {
   background-color: var(--bg-light);
   padding: var(--space-xxl) 0;
+  height: auto;
 }
 
 .testimonials-slider {

@@ -991,3 +991,150 @@ section {
     transform: none;
   }
 }
+
+/* Responsive Styles for Footer */
+
+/* For screens up to 1024px */
+@media (max-width: 1024px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-xl);
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-md);
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+
+  .footer-policies {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+}
+
+/* For screens up to 768px */
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--space-lg) 0 var(--space-sm);
+  }
+
+  .footer-logo {
+    font-size: 1.5rem;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .footer-links a {
+    font-size: 0.95rem;
+  }
+
+  .social-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .social-icon img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+  }
+}
+
+/* For screens up to 480px */
+@media (max-width: 480px) {
+  .footer {
+    padding: var(--space-md) 0 var(--space-sm);
+  }
+
+  .footer-content {
+    gap: var(--space-lg);
+  }
+
+  .footer-logo {
+    font-size: 1.3rem;
+  }
+
+  .footer-links a {
+    font-size: 0.9rem;
+  }
+
+  .footer-social {
+    gap: var(--space-xs);
+  }
+
+  .social-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .social-icon img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+    gap: var(--space-md);
+  }
+
+  .footer-policies {
+    gap: var(--space-xs);
+  }
+
+  .footer-policies a {
+    font-size: 0.8rem;
+  }
+}
+
+/* For screens up to 360px (very small devices) */
+@media (max-width: 360px) {
+  .footer {
+    padding: var(--space-sm) 0;
+  }
+
+  .footer-logo {
+    font-size: 1.2rem;
+  }
+
+  .footer-links a {
+    font-size: 0.85rem;
+  }
+
+  .social-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .social-icon img {
+    width: 14px;
+    height: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 0.75rem;
+  }
+
+  .footer-policies a {
+    font-size: 0.75rem;
+  }
+}

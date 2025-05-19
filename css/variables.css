@@ -1,0 +1,62 @@
+:root {
+  /* Color Palette */
+  --primary-color: #7e57c2; /* Main purple */
+  --primary-light: #b085f5;
+  --primary-dark: #4d2c91;
+  
+  --secondary-color: #ff85a2; /* Pink accent */
+  --secondary-light: #ffa4b8;
+  --secondary-dark: #d4547a;
+  
+  --accent-color: #ffb74d; /* Orange accent */
+  
+  --success-color: #66bb6a;
+  --warning-color: #ffb74d;
+  --error-color: #ef5350;
+  
+  --text-color: #343a40;
+  --text-light: #6c757d;
+  --text-dark: #212529;
+  
+  --bg-color: #ffffff;
+  --bg-light: #f8f1ff;
+  --bg-dark: #f1e6ff;
+  
+  /* Typography */
+  --heading-font: 'Cormorant Garamond', serif;
+  --body-font: 'Montserrat', sans-serif;
+  
+  /* Spacing - 8px system */
+  --space-xs: 0.5rem;   /* 8px */
+  --space-sm: 1rem;     /* 16px */
+  --space-md: 1.5rem;   /* 24px */
+  --space-lg: 2rem;     /* 32px */
+  --space-xl: 3rem;     /* 48px */
+  --space-xxl: 4rem;    /* 64px */
+  
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-round: 50%;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 8px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 16px rgba(0,0,0,0.1);
+  --shadow-xl: 0 12px 24px rgba(0,0,0,0.15);
+  
+  /* Container widths */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  
+  /* Z-index levels */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal: 1040;
+  --z-tooltip: 1050;
+}
